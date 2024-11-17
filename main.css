@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+.container h1 {
+    /* transform: translateY(-10rem); */
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900    ;
+    font-size: 80px;
+}
+
+.container button {
+    padding: 30px;
+    border: 1px transparent solid;
+    border-radius: 7px;
+    background-color: tomato;
+    color: white;
+    transition: 0.5s;
+}
+
+.container h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-size: 35px;
+}
+
+.container button:hover {
+    background-color: blue;
+}
+
+ 
+@media screen and (max-width: 600px)  {
+    .container h1 {
+        font-size: 60px;
+    }
+}
